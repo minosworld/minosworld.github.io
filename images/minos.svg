@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 50 50"
+   version="1.1"
+   x="0px"
+   y="0px"
+   id="svg3115"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="minos.svg"
+   inkscape:export-filename="/usr/local/google/home/manoliss/Downloads/minos.png"
+   inkscape:export-xdpi="900"
+   inkscape:export-ydpi="900">
+  <metadata
+     id="metadata3135">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Home 8.3</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3133" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1146"
+     id="namedview3131"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="4.856"
+     inkscape:cx="23.792813"
+     inkscape:cy="-3.6634234"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3115" />
+  <title
+     id="title3117">Home 8.3</title>
+  <desc
+     id="desc3119">Created with Sketch.</desc>
+  <g
+     id="g3238"
+     transform="matrix(0.94468597,0,0,0.94468597,1.6474464,2.4887862)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path3125"
+       d="M 25.028399,6.2379013 2.9565087,27.306523 0,24.209227 25.028399,0.3184827 50.056797,24.209227 47.100288,27.306523 25.028399,6.2379013 z"
+       style="fill:#000000;fill-rule:nonzero;stroke:none" />
+    <path
+       id="path3195"
+       d="m 27.003059,12.813628 h 15.48785 V 47.734763 H 7.5658885 V 12.813628 H 27.003059 z M 11.450073,16.700466 V 43.84793 h 3.838261 V 20.487165 H 19.17252 V 43.84793 H 30.841232 V 20.487165 h 3.884187 V 43.84793 h 3.881216 V 16.700466 H 27.002798 V 39.9147 H 23.118787 V 16.700466 z"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
