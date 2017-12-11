@@ -31,7 +31,10 @@
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://minosworld.org"><img src="images/minos_500x500.png" style="width: 75px" alt="logo"></a>
+          <a class="navbar-brand" href="http://minosworld.org">
+            <!-- <img src="images/minos_500x500.png" style="width: 50px" alt="logo"> -->
+            <h3>MINOS: Multimodal Indoor Simulator</h3>
+          </a>
         </div>
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
@@ -49,42 +52,47 @@
 
   <section id="intro">
     <div class="container">
-      <div class="section-header">
+<!--       <div class="section-header">
         <h2 class="section-title text-center wow fadeInDown">Introduction</h2>
+      </div> -->
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <p class="lead wow fadeInDown">
+          MINOS is a simulator designed to support the development of multisensory models for goal-directed navigation in complex indoor environments. MINOS leverages large datasets of complex 3D environments and supports flexible configuration of multimodal sensor suites.
+        </p>
       </div>
-      <p class="lead wow fadeInDown">
-        MINOS is an open-source multimodal simulator that is designed to support the development of multi-sensory  models  for  goal-directed  navigation  in  complex  indoor  environments.   The  simulator leverages large datasets of realistic designed or reconstructed 3D models of furnished houses and supports flexible configuration of sensor suites comprising vision, depth, and touch.
-      </p>
-      <div class="lead wow fadeInDown">
-        <h3>News</h3>
-        <ul>
-          <li><b>[2017-12-??]</b> MINOS initial release
-          </li>
-          </li>
-        </ul>
-      </div>
+      <div class="col-md-1"></div>
     </div>
   </section><!--/#intro-->
 
   <section id="video">
+    <div class="container">
+      <div class="videowrapper">
+        <iframe width="720" height="405" src="https://www.youtube.com/embed/c0mL9K64q84?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <span>&nbsp;</span>
   </section><!--/#video-->
 
   <section id="demo">
     <div class="container">
-      <div class="section-header">
+      <!-- <div class="section-header">
         <h2 class="section-title text-center wow fadeInDown">Demo</h2>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-          MINOS is designed to be accessible from both Python API for training reinforcement learning agents and from online for crowdsourcing.  
-          
-          Please try our online demos (I/J/K/L to move, arrow keys to change camera viewpoint).
-          
+          <h3 class="column-title">Demos</h3>
+          MINOS provides both a Python API for training end-to-end navigation agents, and a web client API for crowdsourcing, visualization and debugging.
+          <br><br>
+          Try our live web demos:
           <ul>
-            <li><a href='http://bitly.com/minos-demo-suncg'>SUNCG</a> synthetic scene</li>
-            <li><a href='http://bitly.com/minos-demo-mp3d'>Matterport3D</a> reconstructed scene</li>
+            <li><a href='http://bitly.com/minos-demo-suncg'>MINOS for SUNCG</a> synthetic 3D scenes</li>
+            <li><a href='http://bitly.com/minos-demo-mp3d'>MINOS for Matterport3D</a> reconstructed scenes</li>
           </ul>
+          <p>
+            Use the I/J/K/L keys to step and turn, the arrow keys to strafe and look up or down, the R key to respawn, and the O key to update the agent observations panel on the right.
+          </p>
         </div>
         <div class="col-md-1"></div>
       </div>
@@ -93,20 +101,21 @@
 
   <section id="download">
     <div class="container">
-      <div class="section-header">
+<!--       <div class="section-header">
         <h2 class="section-title text-center wow fadeInDown">Download</h2>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
+          <h3 class="column-title">Download</h3>
           <p>
-          MINOS source code is available at <a href="https://github.com/minosworld/minos">https://github.com/minosworld/minos</a>.
+          The MINOS source code is available at <a href="https://github.com/minosworld/minos">https://github.com/minosworld/minos</a>.
           </p>
-
+<!-- 
           <p>
           For environments to use with the simulator, you will need to agree to the license and terms of use of the data.
           </p>
-
+ -->
           <p>
           For synthetic scenes, we use environments from <a href="http://suncg.cs.princeton.edu">SUNCG</a>, a dataset with over 45,000 scenes.  Please sign the terms of use for SUNCG and send it to <a href='mailto:suncgteam@googlegroups.com'>suncgteam@googlegroups.com</a>, indicating use with MINOS, to request access to the dataset.
           </p>
@@ -122,13 +131,16 @@
 
   <section id="paper" >
     <div class="container">
-      <div class="section-header">
+      <!-- <div class="section-header">
         <h2 class="section-title text-center wow fadeInDown">References</h2>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-          Paper
+          <h3 class="column-title">Paper</h3>
+          If you use MINOS please cite out technical report:
+          <br><br>
+
         </div>
         <div class="col-md-1"></div>
       </div>
@@ -137,12 +149,12 @@
 
   <section id="team">
     <div class="container">
-      <div class="section-header">
+<!--       <div class="section-header">
         <h2 class="section-title text-center wow fadeInDown">Team</h2>
-      </div>
-
+      </div> -->
       <div class="row">
-        <div class="col-sm-6 col-md-6">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
           <div class="team-member wow fadeInLeft" data-wow-duration="400ms" data-wow-delay="0ms">
             <h3 class="column-title">Team members</h3>
             <ul>
